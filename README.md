@@ -1,6 +1,5 @@
 ## My_Sokoban
 
-
 __Principe :__
 
 > Déplacer les `X` dans les `O`, grace à une map composé de `#` pour les murs et de `P` pour les joueurs.
@@ -17,14 +16,12 @@ __Étapes :__
 > 4. Implémenter un système de mouvement `UP`, `DOWN`, `LEFT`, `RIGHT`.
 > 5. Quand `#` est en contacte avec `P`, ce dernier ne peut pas bouger dans la direction ou est situé le `P`.
 
-
-
 **Exemple de map :**
 
 ```markdown
-####################
-#    X      P      #
-#         O        #
-#  X           O   #
-####################
+#################
+#    X      P   #
+#         O     #
+#  X           O#
+#################
 ```
